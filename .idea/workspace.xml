@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f92b372c-4bca-4992-9327-2a36094b8d41" name="Changes" comment="Criação de classe abstrata para atributos repetidos&#10;Implementação de metodo abstrato">
+    <list default="true" id="f92b372c-4bca-4992-9327-2a36094b8d41" name="Changes" comment="Criação das classes Dev e Bootcamp">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Dev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Dev.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658863240932</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Criação das classes Dev e Bootcamp">
+      <created>1658864481867</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658864481867</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Criação das classes Dev e Bootcamp">
+      <created>1658864491706</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658864491706</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +139,7 @@
     <MESSAGE value="Atualização do Read me" />
     <MESSAGE value="criação de novas classes&#10;Curso e Mentoria" />
     <MESSAGE value="Criação de classe abstrata para atributos repetidos&#10;Implementação de metodo abstrato" />
-    <option name="LAST_COMMIT_MESSAGE" value="Criação de classe abstrata para atributos repetidos&#10;Implementação de metodo abstrato" />
+    <MESSAGE value="Criação das classes Dev e Bootcamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criação das classes Dev e Bootcamp" />
   </component>
 </project>

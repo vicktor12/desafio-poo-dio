@@ -2,6 +2,7 @@ package br.com.brainstech.desafio.Dominio;
 
 import java.util.LinkedHashSet;
 import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 
 public class Dev {
@@ -9,9 +10,25 @@ public class Dev {
     private Set<Content> subscribedContents = new LinkedHashSet<>();
     private Set<Content> contentsCompleted = new LinkedHashSet<>();
 
-    public void subscribeBootcamp(Bootcamp bootcamp) {}
-    public void progressBootcamp() {}
-    public void calculateTotalXP() {}
+    public void subscribeBootcamp(Bootcamp bootcamp) {
+        this.subscribedContents.addAll(bootcamp.getContents());
+        bootcamp.getSubscribedDevs().add(this);
+    }
+    public void progressBootcamp() {
+        Optional<Content> contents = this.subscribedContents.stream().findFirst();
+        if (contents.isPresent()){
+            this.contentsCompleted.add(contents.get());
+            this.subscribedContents.remove(contents.get());
+        } else {
+            System.err.println("Voce nao esta matriculado em nenhum conteudo");
+        }
+    }
+    public double calculateTotalXP() {
+        return this.contentsCompleted
+                .stream()
+                .mapToDouble(Content::calculateXP)
+                .sum();
+    }
 
 
     public String getName() {
