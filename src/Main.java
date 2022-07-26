@@ -14,7 +14,6 @@ public class Main {
 
         mentoring.setTitle("Professor Camila");
         mentoring.setDescription("Anything");
-        mentoring.setDate(LocalDate.now());
 
         System.out.println(course);
         System.out.println(mentoring);

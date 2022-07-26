@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f92b372c-4bca-4992-9327-2a36094b8d41" name="Changes" comment="Atualização do Read me">
+    <list default="true" id="f92b372c-4bca-4992-9327-2a36094b8d41" name="Changes" comment="criação de novas classes&#10;Curso e Mentoria">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Mentoring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/brainstech/desafio/Dominio/Mentoring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658861259761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="criação de novas classes&#10;Curso e Mentoria">
+      <created>1658862517070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658862517070</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +118,7 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="Read me commit" />
     <MESSAGE value="Atualização do Read me" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualização do Read me" />
+    <MESSAGE value="criação de novas classes&#10;Curso e Mentoria" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação de novas classes&#10;Curso e Mentoria" />
   </component>
 </project>

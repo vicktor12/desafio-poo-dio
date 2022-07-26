@@ -2,32 +2,14 @@ package br.com.brainstech.desafio.Dominio;
 
 import java.time.LocalDate;
 
-public class Mentoring {
-    private String title;
-    private String description;
+public class Mentoring extends Content{
     private LocalDate date;
 
     public Mentoring() {
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
-
     public LocalDate getDate() {
-        return date;
+        return LocalDate.now();
     }
 
     public void setDate(LocalDate date) {
@@ -37,9 +19,14 @@ public class Mentoring {
     @Override
     public String toString() {
         return "Mentoring{" +
-                "title='" + title + '\'' +
-                ", description='" + description + '\'' +
-                ", date=" + date +
+                "title='" + getTitle() + '\'' +
+                ", description='" + getDescription() + '\'' +
+                ", date=" + getDate() +
                 '}';
+    }
+
+    @Override
+    public double calculateXP(){
+        return xp_standart + 20;
     }
 }
