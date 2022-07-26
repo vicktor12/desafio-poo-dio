@@ -25,6 +25,6 @@ public class Course extends Content{
 
     @Override
     public double calculateXP() {
-        return 0;
+        return xp_standart * getWorkload();
     }
 }
